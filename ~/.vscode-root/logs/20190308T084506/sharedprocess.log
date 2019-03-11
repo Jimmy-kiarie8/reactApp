@@ -1,0 +1,32 @@
+[2019-03-08 08:45:10.682] [sharedprocess] [info] main {"machineId":"3f8293b4146a006a89b30298146df212b4d615b336390954233d4c43bd79e4a0"}
+[2019-03-08 08:45:10.848] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:10.882] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:10.883] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:10.928] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-08 08:45:10.935] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-08 08:45:10.941] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-08 08:45:11.969] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:14.036] [sharedprocess] [info] Installing extension: visualstudioexptteam.vscodeintellicode
+[2019-03-08 08:45:14.036] [sharedprocess] [info] Installing extension: vscjava.vscode-java-debug
+[2019-03-08 08:45:14.055] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:14.057] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:15.439] [sharedprocess] [info] Downloaded extension: visualstudioexptteam.vscodeintellicode /tmp/911dbf5b-06c6-4d31-ac9a-663139bbd6ee
+[2019-03-08 08:45:15.508] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.visualstudioexptteam.vscodeintellicode-1.1.4: visualstudioexptteam.vscodeintellicode
+[2019-03-08 08:45:15.509] [sharedprocess] [info] Renamed to /root/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.1.4
+[2019-03-08 08:45:15.513] [sharedprocess] [info] Installation completed. visualstudioexptteam.vscodeintellicode
+[2019-03-08 08:45:15.563] [sharedprocess] [info] Extensions installed successfully: visualstudioexptteam.vscodeintellicode
+[2019-03-08 08:45:15.988] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-debug /tmp/cc2f6f4e-4d90-46b4-aeba-f765b9bb854c
+[2019-03-08 08:45:16.084] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.vscjava.vscode-java-debug-0.17.0: vscjava.vscode-java-debug
+[2019-03-08 08:45:16.085] [sharedprocess] [info] Renamed to /root/.vscode/extensions/vscjava.vscode-java-debug-0.17.0
+[2019-03-08 08:45:16.086] [sharedprocess] [info] Installation completed. vscjava.vscode-java-debug
+[2019-03-08 08:45:16.202] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:16.218] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-08 08:45:16.218] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-debug
+[2019-03-08 08:45:25.968] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:25.970] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:26.102] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-08 08:45:26.116] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-08 08:45:28.039] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:45:50.694] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-03-08 08:50:33.939] [sharedprocess] [info] Scanned user extensions: 20
+[2019-03-08 08:55:34.402] [sharedprocess] [info] Scanned user extensions: 20

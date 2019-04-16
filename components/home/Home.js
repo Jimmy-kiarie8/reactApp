@@ -1,16 +1,14 @@
-// Home.js
-
 import React, { Component } from 'react';
-import { View, Text, Button } from 'react-native';
+import { Platform, StyleSheet, Text, View, AsyncStorage, ActivityIndicator } from 'react-native';
 
-export class Home extends Component {
-    render() {
-        return (
-            <View style={{ alignContent: 'center', justifyContent: 'center', }}>
-                <Text>This is the Home screen</Text>
-            </View>
-        )
-    }
-};
+export default class Home extends Component {
 
-export default Home;
+  render() {
+    return (
+      <Container style={{justifyContent: 'center',alignContent: 'center',}}>
+        <Text>Homescreen</Text>
+      </Container>
+    )
+
+  }
+}

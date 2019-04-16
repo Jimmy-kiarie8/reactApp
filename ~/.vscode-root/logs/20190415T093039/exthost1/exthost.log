@@ -1,0 +1,52 @@
+[2019-04-15 09:30:49.297] [exthost] [info] extension host started
+[2019-04-15 09:30:49.350] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-04-15 09:30:49.350] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-04-15 09:30:49.364] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-04-15 09:30:49.364] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-04-15 09:30:49.433] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-04-15 09:30:49.433] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-04-15 09:30:49.593] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-04-15 09:30:49.593] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-04-15 09:30:49.648] [exthost] [info] ExtensionService#_doActivateExtension codingyu.laravel-goto-view {"startup":true,"activationEvent":"*"}
+[2019-04-15 09:30:49.648] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/codingyu.laravel-goto-view-1.2.3/out/src/extension
+[2019-04-15 09:30:49.745] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-04-15 09:30:49.745] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-04-15 09:30:49.844] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-04-15 09:30:49.844] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.1.5/dist/intellicode
+[2019-04-15 09:30:52.162] [exthost] [info] eager extensions activated
+[2019-04-15 09:31:29.883] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-04-15 09:31:29.883] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-04-15 10:24:58.548] [exthost] [info] extension host started
+[2019-04-15 10:24:58.569] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-04-15 10:24:58.569] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-04-15 10:24:58.691] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-04-15 10:24:58.691] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-04-15 10:24:59.018] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-04-15 10:24:59.018] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-04-15 10:24:59.241] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-04-15 10:24:59.241] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-04-15 10:24:59.355] [exthost] [info] ExtensionService#_doActivateExtension codingyu.laravel-goto-view {"startup":true,"activationEvent":"*"}
+[2019-04-15 10:24:59.355] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/codingyu.laravel-goto-view-1.2.3/out/src/extension
+[2019-04-15 10:24:59.473] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-04-15 10:24:59.473] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-04-15 10:25:00.178] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-04-15 10:25:00.178] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.1.5/dist/intellicode
+[2019-04-15 10:25:00.465] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-04-15 10:25:00.465] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-04-15 10:25:00.591] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-04-15 10:25:00.591] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-04-15 10:25:00.700] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-04-15 10:25:00.700] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-04-15 10:25:00.976] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-04-15 10:25:00.976] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/npm/dist/main
+[2019-04-15 10:25:03.192] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-04-15 10:25:03.192] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2019-04-15 10:25:03.569] [exthost] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-04-15 10:25:03.569] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/out/extension
+[2019-04-15 10:25:06.708] [exthost] [info] ExtensionService#_doActivateExtension ryannaddy.laravel-artisan {"startup":true,"activationEvent":"workspaceContainsTimeout:**/artisan"}
+[2019-04-15 10:25:06.708] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ryannaddy.laravel-artisan-0.0.25/out/src/extension
+[2019-04-15 10:25:10.149] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-maven {"startup":true,"activationEvent":"workspaceContainsTimeout:**/pom.xml"}
+[2019-04-15 10:25:10.149] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscjava.vscode-maven-0.16.0/dist/extension
+[2019-04-15 10:25:35.614] [exthost] [info] eager extensions activated
+[2019-04-15 11:51:47.650] [exthost] [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade {"startup":false,"activationEvent":"onLanguage:blade"}
+[2019-04-15 11:51:47.650] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/onecentlin.laravel-blade-1.18.0/out/src/extension

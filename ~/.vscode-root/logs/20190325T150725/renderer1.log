@@ -1,0 +1,5 @@
+[2019-03-25 15:07:59.123] [renderer1] [info] no standard startup: not just one text editor
+[2019-03-25 15:07:59.149] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: {1}
+[2019-03-25 15:09:57.168] [renderer1] [info] no standard startup: not just one text editor
+[2019-03-25 15:09:57.227] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: {1}
+[2019-03-25 15:10:04.629] [renderer1] [error] An unknown error occurred. Please consult the log for more details.

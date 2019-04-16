@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import { View, Text, TextInput, StyleSheet, ImageBackground, AsyncStorage } from 'react-native';
-import { Icon, Container, Content, Thumbnail, Header, Body, Left, Right, Button } from "native-base";
+import { Icon, Container, Content, Thumbnail, Header, Body, Left, Item, Button, Right } from "native-base";
 
 export class Signup extends Component {
     static navigationOptions = {
@@ -17,31 +17,65 @@ export class Signup extends Component {
     }
     handleTextChange(text) {
         this.setState({
-            name: text
+            name: text,
+            errors: []
         })
     }
     signup() {
         const name = this._name._lastNativeText
         const email = this._email._lastNativeText
         const password = this._password._lastNativeText
-        let obj = {
-            name: name,
-            email: email,
-            password: password,
+        console.log('====================================');
+        console.log(name, email, password);
+        console.log('====================================');
+        try {
+            fetch('http://10.0.2.2/project/reactapi/public/api/auth/signup', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email: email,
+                    name: name,
+                    password: password,
+                })
+            })
+                .then((response) => response.json())
+                .then((res) => {
+                    if (res.errors) {
+                        alert(res.message)
+                        this.setState({
+                            errors: res.errors
+                        })
+                        console.log(res)
+                        return
+                    }
+                    console.log(res);
+                    alert(res.message)
+                    this.setState({
+                        token: res.access_token
+                    })
+                    console.log(res);
+                    // console.log(this.state.token)
+
+                }).done()
+        } catch (error) {
+            console.log('====================================');
+            console.log('error');
+            console.log('====================================');
         }
-        // console.log(name, email, password);
-        AsyncStorage.setItem('user', JSON.stringify(obj));
-        console.log(obj);
 
     }
     user = async () => {
         try {
-            let user = await AsyncStorage.getItem('login');
+            let user = await AsyncStorage.getItem('user');
             // let user = await AsyncStorage.getItem('user');
             // let parsed = JSON.parse(user);
             if (user == 'true') {
                 alert('true')
             }
+            // alert('false')
             console.log(user);
 
         } catch (error) {
@@ -57,24 +91,36 @@ export class Signup extends Component {
                     <Text style={styles.label}>Signup</Text>
                 </View>
                 <View style={styles.form}>
-                    <Text style={styles.label}>Email</Text>
-                    <TextInput style={{ height: 40, borderColor: 'gray', color: '#000', borderBottomWidth: 1 }}
-                        keyboardType="email-address"
-                        ref={input => this._email = input}
-                    />
+                    <Item rounded>
+                        <TextInput placeholder="Username" keyboardType="email-address"
+                            style={{ width: 100 + '%', height: null }}
+                            ref={input => this._name = input} />
+                    </Item>
 
-                    <Text style={styles.label}>Name</Text>
-                    <TextInput style={{ height: 40, borderColor: 'gray', color: '#000', borderBottomWidth: 1 }}
-                        ref={input => this._name = input}
-                    />
+                    <Item rounded style={{ marginTop: 10 }}>
+                        <TextInput placeholder="Email" keyboardType="email-address"
+                            style={{ width: 100 + '%', height: null }}
+                            ref={input => this._email = input} />
+                    </Item>
 
-                    <Text style={styles.label}>Password</Text>
-                    <TextInput style={{ height: 40, borderColor: 'gray', color: '#000', borderBottomWidth: 1, marginBottom: 20 }}
-                        ref={input => this._password = input}
-                        secureTextEntry={true} />
-                    <Button onPress={this.signup} transparent><Text>Signup</Text></Button>
-                    <Button onPress={this.user} transparent><Text>Users</Text></Button>
+                    <Item rounded style={{ marginTop: 10 }}>
+                        <TextInput placeholder="Password" style={{ width: 100 + '%', height: null }}
+                            ref={input => this._password = input}
+                            secureTextEntry={true} />
+                    </Item>
 
+                    <View style={{ flex: 1, flexDirection: 'row' }}>
+                        <Left>
+                            <Button rounded onPress={this.signup} success style={{ paddingHorizontal: 30, marginTop: 10 }}>
+                                <Text style={{ color: '#fff' }}>Signup</Text>
+                            </Button>
+                        </Left>
+                        <Right>
+                            <Button rounded onPress={this.user} info style={{ paddingHorizontal: 30, marginTop: 10 }}>
+                                <Text style={{ color: '#fff' }}>User</Text>
+                            </Button>
+                        </Right>
+                    </View>
                 </View>
                 {/* <View style={styles.Loginbutton}>
                 </View> */}
@@ -87,6 +133,7 @@ export class Signup extends Component {
 
 const styles = StyleSheet.create({
     signup: {
+        backgroundColor: '#f0f0f0',
         flex: 1,
         padding: 10,
         justifyContent: 'center',
@@ -103,6 +150,7 @@ const styles = StyleSheet.create({
         flex: 1,
         borderBottomWidth: StyleSheet.hairlineWidth,
         borderBottomColor: '#f0f0f0',
+        // justifyContent: 'center',
         padding: 20,
     },
     Loginbutton: {
@@ -113,6 +161,8 @@ const styles = StyleSheet.create({
     },
     label: {
         color: '#000',
+        fontSize: 25,
+        fontWeight: 'bold',
     }
 });
 
